@@ -91,7 +91,8 @@ main {
     
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 47px;    
 }
 
 /* Hero section */
